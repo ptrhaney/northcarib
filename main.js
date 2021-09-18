@@ -133,7 +133,7 @@ require([
           field: "mag",
           axis: "all",
           stops: [
-            { value: 5.5, size: 10000, label: "<15%" },
+            { value: 4.5, size: 10000, label: "<15%" },
             { value: 7, size: 40000, label: "25%" }
           ]
         },
@@ -144,7 +144,7 @@ require([
             title: "Magnitude"
           },
           stops: [
-            { value: 2.5, color: [254, 240, 217], label: "4.5 - 6" },
+            { value: 4.5, color: [254, 240, 217], label: "4.5 - 6" },
             { value: 7, color: [179, 0, 0], label: ">7" }
           ]
         }
